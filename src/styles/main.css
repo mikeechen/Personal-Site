@@ -1,0 +1,22 @@
+section {
+  text-align: center;
+}
+
+section > div {
+  position: relative;
+  top: 35vh;
+  color: white;
+}
+
+section > div > h3 {
+  margin-top: 2rem;
+}
+
+.background {
+  background-image: url('../assets/DSC_0016.JPG');
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

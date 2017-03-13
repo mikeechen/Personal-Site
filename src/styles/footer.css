@@ -1,0 +1,11 @@
+footer {
+  position: absolute;
+  bottom: 6rem;
+  left: 40%;
+}
+
+footer img {
+  width: 3.5rem;
+  margin: 0 1rem 0;
+  filter: invert(100%);
+}

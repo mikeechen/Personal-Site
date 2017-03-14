@@ -20,3 +20,10 @@ section > div > h3 {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+@media (max-device-width: 750px) {
+  .background {
+    background-attachment: scroll;
+    width: 100vw;
+  }
+}

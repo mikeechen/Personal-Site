@@ -10,11 +10,13 @@ export default class Footer extends Component {
   render() {
     return (
       <footer>
+        <div className="container">
           <a href="https://github.com/mikeechen" target="_blank"><img src={github} alt="github"/></a>
           <a href="https://linkedIn.com/in/mikeechen915" target="_blank"><img src={linkedIn} alt="linkedIn"/></a>
           <a href="https://www.facebook.com/ChenMichaelChen" target="_blank"><img src={facebook} alt="facebook"/></a>
           <a href="https://twitter.com/chenmasta" target="_blank"><img src={twitter} alt="twitter"/></a>
           <a href="https://www.instagram.com/mikeechen/" target="_blank"><img src={instagram} alt="instagram"/></a>
+        </div>
       </footer>
     )
   }

@@ -13,7 +13,7 @@ export default class Header extends Component {
           <nav>
             <ul>
               <li><Link to="/">Home</Link></li>
-              <li><a href="#">About</a></li>
+              <li><Link to="/about">About</Link></li>
               <li><a href="#">Projects</a></li>
               <li><a href="#">Contact</a></li>
               <li><a href="#">Resume</a></li>
@@ -23,7 +23,7 @@ export default class Header extends Component {
         <MediaQuery query="(max-width: 1219px) and (min-width: 751px)">
           <Menu right>
             <Link className="menu-item" to="/">Home</Link>
-            <a className="menu-item" href="#">About</a>
+            <Link className="menu-item" to="/about">About</Link>
             <a className="menu-item" href="#">Projects</a>
             <a className="menu-item" href="#">Contact</a>
             <a className="menu-item" href="#">Resume</a>
@@ -32,7 +32,7 @@ export default class Header extends Component {
         <MediaQuery query="(max-width: 750px)">
           <Menu right>
             <Link className="menu-item" to="/">Home</Link>
-            <a className="menu-item" href="#">About</a>
+            <Link className="menu-item" to="/about">About</Link>
             <a className="menu-item" href="#">Projects</a>
             <a className="menu-item" href="#">Contact</a>
             <a className="menu-item" href="#">Resume</a>

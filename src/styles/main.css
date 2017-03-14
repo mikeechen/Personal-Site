@@ -4,12 +4,20 @@ section {
 
 section > div {
   position: relative;
-  top: 35vh;
+  top: 32vh;
   color: white;
+  padding: 3rem 0 2rem;
+  background-color: rgba(60, 60, 60, 0.7);
+}
+
+section > div > h1 {
+  font-size: 700%;
+  font-weight: 200;
 }
 
 section > div > h3 {
   margin-top: 2rem;
+  font-weight: 100;
 }
 
 .background {

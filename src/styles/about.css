@@ -1,0 +1,16 @@
+p {
+  font-size: 110%;
+}
+
+.secondary {
+  top: 20vh
+}
+
+.text {
+  text-align: left;
+}
+
+.list {
+  text-align: left;
+  margin-top: -2rem;
+}

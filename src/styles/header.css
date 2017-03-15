@@ -46,7 +46,7 @@ header nav ul li a:hover {
   border-bottom: 1px solid #0FA0CE;
 }
 
-@media (max-width: 1219px) {
+@media screen and (max-width: 1219px) {
   /* Position and sizing of burger button */
   .bm-burger-button {
     position: fixed;

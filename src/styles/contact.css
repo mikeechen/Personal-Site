@@ -34,7 +34,7 @@
   color: #444;
 }
 
-@media (max-width: 621px) {
+@media screen and (max-width: 621px) {
   .contact-section {
     top: 10vh;
     padding-bottom: 0;

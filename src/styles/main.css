@@ -29,7 +29,7 @@ section > div > h3 {
   background-size: cover;
 }
 
-@media (max-device-width: 750px) {
+@media screen and (max-device-width: 750px) {
   .background {
     background-attachment: scroll;
     width: 100vw;

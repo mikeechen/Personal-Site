@@ -1,0 +1,42 @@
+.contact-section {
+  top: 20vh;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.face {
+  width: 15%;
+}
+
+.contact-text {
+  width: 60%;
+  margin: auto;
+  text-align: left;
+  color: #000;
+  margin-top: 2rem;
+}
+
+.contact-text > h2 {
+  font-weight: 300;
+}
+
+.contact-text > h3 {
+  margin-left: 2rem;
+  font-weight: 300;
+}
+
+.contact-text > h3 > a {
+  text-decoration: none;
+  color: #000;
+}
+
+.contact-text > h3 > a:hover {
+  text-decoration: underline;
+  color: #444;
+}
+
+@media (max-width: 621px) {
+  .contact-section {
+    top: 10vh;
+    padding-bottom: 0;
+  }
+}

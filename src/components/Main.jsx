@@ -3,6 +3,24 @@ import MediaQuery from 'react-responsive';
 import '../styles/main.css';
 
 export default class Main extends Component {
+  componentDidMount() {
+    const images = document.getElementsByClassName('footer-logo');
+    const logo = document.querySelector('.logo');
+    const headerNav = document.querySelector('header nav');
+
+    for (let img of images) {
+      img.style.filter = 'invert(100%)';
+    }
+
+    if (headerNav) {
+      headerNav.style.filter = 'invert(0%)';
+    }
+
+    if (logo) {
+      logo.style.filter = 'invert(0%)';
+    }
+  }
+
   render() {
     return (
       <section className="background">

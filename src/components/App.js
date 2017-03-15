@@ -4,6 +4,7 @@ import Header from './Header';
 import Footer from './Footer';
 import Main from './Main';
 import About from './About';
+import Contact from './Contact';
 import '../styles/App.css';
 
 class App extends Component {
@@ -15,6 +16,7 @@ class App extends Component {
             <Header />
             <Route exact path="/" component={Main} />
             <Route path="/about" component={About} />
+            <Route path="/contact" component={Contact} />
           </main>
           <Footer />
         </div>

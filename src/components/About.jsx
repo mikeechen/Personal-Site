@@ -4,6 +4,24 @@ import '../styles/main.css';
 import '../styles/about.css';
 
 export default class About extends Component {
+  componentDidMount() {
+    const images = document.getElementsByClassName('footer-logo');
+    const logo = document.querySelector('.logo');
+    const headerNav = document.querySelector('header nav');
+
+    for (let img of images) {
+      img.style.filter = 'invert(100%)';
+    }
+
+    if (headerNav) {
+      headerNav.style.filter = 'invert(0%)';
+    }
+
+    if (logo) {
+      logo.style.filter = 'invert(0%)';
+    }
+  }
+
   render() {
     return (
       <section className="background">
@@ -14,8 +32,7 @@ export default class About extends Component {
             I've always been interested in technologies, and how it can make our lives easier
             as it evolves. Coding has been a passion of mine for a long time,
             and I am ready to step forward into my career as a developer. I am always
-            interested in learning new languages and technologies, and I have been
-            teaching myself through most of my life.</p>
+            interested in learning new languages and technologies!</p>
             <MediaQuery query="(min-width: 620px)">
               <div className="row animated fadeInUp">
                 <div className="one-half column">

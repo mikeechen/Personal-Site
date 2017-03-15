@@ -11,3 +11,9 @@ footer img {
   margin: 0 1rem 0;
   filter: invert(100%);
 }
+
+@media (max-width: 750px) {
+  footer {
+    bottom: 2rem;
+  }
+}

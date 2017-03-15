@@ -9,23 +9,24 @@ export default class Header extends Component {
     return (
       <header>
         <MediaQuery query="(min-width: 1220px)">
-          <img src="http://fontmeme.com/permalink/170313/1c08a7dce2a7ca6fbb17e1bf7fc0aaf1.png" alt="MC"/>
-          <nav>
+          <img className="logo" src="http://fontmeme.com/permalink/170313/1c08a7dce2a7ca6fbb17e1bf7fc0aaf1.png" alt="MC"/>
+          <nav className="main-header">
             <ul>
               <li><Link to="/">Home</Link></li>
               <li><Link to="/about">About</Link></li>
               <li><a href="#">Projects</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><Link to="/contact">Contact</Link></li>
               <li><a href="#">Resume</a></li>
             </ul>
           </nav>
         </MediaQuery>
         <MediaQuery query="(max-width: 1219px) and (min-width: 751px)">
+          <img className="logo" src="http://fontmeme.com/permalink/170313/1c08a7dce2a7ca6fbb17e1bf7fc0aaf1.png" alt="MC"/>
           <Menu right>
             <Link className="menu-item" to="/">Home</Link>
             <Link className="menu-item" to="/about">About</Link>
             <a className="menu-item" href="#">Projects</a>
-            <a className="menu-item" href="#">Contact</a>
+            <Link className="menu-item" to="/contact">Contact</Link>
             <a className="menu-item" href="#">Resume</a>
           </Menu>
         </MediaQuery>
@@ -34,7 +35,7 @@ export default class Header extends Component {
             <Link className="menu-item" to="/">Home</Link>
             <Link className="menu-item" to="/about">About</Link>
             <a className="menu-item" href="#">Projects</a>
-            <a className="menu-item" href="#">Contact</a>
+            <Link className="menu-item" to="/contact">Contact</Link>
             <a className="menu-item" href="#">Resume</a>
           </Menu>
         </MediaQuery>

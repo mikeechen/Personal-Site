@@ -14,7 +14,7 @@ export default class Header extends Component {
             <ul>
               <li><Link to="/">Home</Link></li>
               <li><Link to="/about">About</Link></li>
-              <li><a href="#">Projects</a></li>
+              <li><Link to="/projects">Projects</Link></li>
               <li><Link to="/contact">Contact</Link></li>
               <li><a href="#">Resume</a></li>
             </ul>
@@ -25,7 +25,7 @@ export default class Header extends Component {
           <Menu right>
             <Link className="menu-item" to="/">Home</Link>
             <Link className="menu-item" to="/about">About</Link>
-            <a className="menu-item" href="#">Projects</a>
+            <Link className="menu-item" to="/projects">Projects</Link>
             <Link className="menu-item" to="/contact">Contact</Link>
             <a className="menu-item" href="#">Resume</a>
           </Menu>
@@ -34,7 +34,7 @@ export default class Header extends Component {
           <Menu right>
             <Link className="menu-item" to="/">Home</Link>
             <Link className="menu-item" to="/about">About</Link>
-            <a className="menu-item" href="#">Projects</a>
+            <Link className="menu-item" to="/projects">Projects</Link>
             <Link className="menu-item" to="/contact">Contact</Link>
             <a className="menu-item" href="#">Resume</a>
           </Menu>

@@ -15,15 +15,18 @@ export default class About extends Component {
         <div className="secondary">
           <div className="container">
             <h3 className="text animated fadeInDown">Hello there! I'm Michael Chen.</h3>
-            <p className="text animated fadeInDown">I'm a Web Developer based in Seattle. Growing up,
-            I've always been interested in technologies, and how it can make our lives easier
-            as it evolves. Coding has been a passion of mine for a long time,
-            and I am ready to step forward into my career as a developer. I am always
-            interested in learning new languages and technologies!</p>
+            <p className="text animated fadeInDown">
+              I’m a Web Developer based out of Seattle. Growing up, I was always
+              interested in technology, and how it could improve our lives.
+              I took a C/C++ course over a summer during high school, and instantly
+              fell in love with how I can make a simple application from just writing code. 
+              Coding has been a passion of mine for a long time, and I am ready
+              to begin my career as a developer.
+            </p>
             <MediaQuery query="(min-width: 620px)">
               <div className="row animated fadeInUp">
                 <div className="one-half column">
-                  <p className="text">Some technologies I am skilled in:</p>
+                  <p className="text">Technologies I am skilled in:</p>
                   <ul className="list">
                     <li>JavaScript</li>
                     <li>ReactJS</li>
@@ -34,7 +37,7 @@ export default class About extends Component {
                   </ul>
                 </div>
                 <div className="one-half column">
-                  <p className="text">Some technologies I am currently/interested in learning:</p>
+                  <p className="text">Technologies I am currently/interested in learning:</p>
                   <ul className="list">
                     <li>Java Spring</li>
                     <li>Ruby on Rails</li>

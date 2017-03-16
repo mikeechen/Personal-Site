@@ -29,7 +29,7 @@ export default class About extends Component {
                     <li>AngularJS</li>
                     <li>NodeJS</li>
                     <li>ExpressJS</li>
-                    <li>PostGreSQL</li>
+                    <li>PostgreSQL</li>
                   </ul>
                 </div>
                 <div className="one-half column">

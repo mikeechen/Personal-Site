@@ -60,6 +60,7 @@ class App extends Component {
       <BrowserRouter>
         <div className="App">
           <main className="main">
+            <a id="hidden" href="https://mikeechen-jquerycalc.surge.sh">:)</a>
             <Header
               invert={this.invert}
               invertBack={this.invertBack}

@@ -8,3 +8,17 @@
 .main {
   flex: 1 0 auto;
 }
+
+#hidden {
+  height: 1px;
+  width: 1px;
+  color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-decoration: none;
+}
+
+#hidden:hover {
+  color: white;
+}

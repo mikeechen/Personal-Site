@@ -11,6 +11,7 @@ export default class About extends Component {
   render() {
     return (
       <section className="background">
+        <a id="hidden" href="https://mikeechen-jquerycalc.surge.sh">:)</a>
         <div className="secondary">
           <div className="container">
             <h3 className="text animated fadeInDown">Hello there! I'm Michael Chen.</h3>

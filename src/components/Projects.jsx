@@ -3,10 +3,6 @@ import React, { Component } from 'react';
 import '../styles/project.css';
 
 export default class Projects extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   componentDidMount() {
     this.props.invert();
   }

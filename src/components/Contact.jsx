@@ -5,10 +5,6 @@ import '../styles/project.css';
 import '../styles/contact.css';
 
 export default class Contact extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   componentDidMount() {
     this.props.invert();
   }

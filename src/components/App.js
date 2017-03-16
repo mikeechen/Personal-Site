@@ -6,15 +6,11 @@ import Main from './Main';
 import About from './About';
 import Contact from './Contact';
 import Projects from './Projects';
-import Resume from './Resume';
 import '../styles/App.css';
 
 class App extends Component {
   constructor() {
     super();
-    this.state = {
-      resume: false
-    };
     this.invert = this.invert.bind(this);
     this.invertBack = this.invertBack.bind(this);
   }
@@ -64,12 +60,10 @@ class App extends Component {
       <BrowserRouter>
         <div className="App">
           <main className="main">
-            {this.state.resume ? (null) : (
-              <Header
-                invert={this.invert}
-                invertBack={this.invertBack}
-              />
-            )}
+            <Header
+              invert={this.invert}
+              invertBack={this.invertBack}
+            />
             <Route exact path="/" render={() => (
               <Main
                 invertBack={this.invertBack}
@@ -90,19 +84,11 @@ class App extends Component {
                 invert={this.invert}
               />
             )} />
-            <Route path="/resume" render={() => (
-              <Resume
-                setResume={this.setResume.bind(this)}
-              />
-            )} />
           </main>
-          {this.state.resume ?
-            (null) : (
-              <Footer
-                invert={this.invert}
-                invertBack={this.invertBack}
-              />
-            )}
+          <Footer
+            invert={this.invert}
+            invertBack={this.invertBack}
+          />
         </div>
       </BrowserRouter>
     );

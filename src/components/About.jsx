@@ -4,10 +4,6 @@ import '../styles/main.css';
 import '../styles/about.css';
 
 export default class About extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   componentDidMount() {
     this.props.invertBack();
   }

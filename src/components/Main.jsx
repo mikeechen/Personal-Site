@@ -3,10 +3,6 @@ import MediaQuery from 'react-responsive';
 import '../styles/main.css';
 
 export default class Main extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   componentDidMount() {
     this.props.invertBack();
   }

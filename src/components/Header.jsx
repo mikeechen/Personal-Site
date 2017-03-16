@@ -2,13 +2,10 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import MediaQuery from 'react-responsive';
 import { slide as Menu } from 'react-burger-menu';
+import resume from '../assets/resume-MichaelChen.pdf';
 import '../styles/header.css';
 
 export default class Header extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   componentDidMount() {
     const location = window.location.pathname;
     if (location === '/' || location === '/about') {
@@ -29,7 +26,7 @@ export default class Header extends Component {
               <li><Link to="/about">About</Link></li>
               <li><Link to="/projects">Projects</Link></li>
               <li><Link to="/contact">Contact</Link></li>
-              <li><Link to="/resume">Resumé</Link></li>
+              <li><a href={resume} target="_blank">Resumé</a></li>
             </ul>
           </nav>
         </MediaQuery>
@@ -40,7 +37,7 @@ export default class Header extends Component {
             <Link className="menu-item" to="/about">About</Link>
             <Link className="menu-item" to="/projects">Projects</Link>
             <Link className="menu-item" to="/contact">Contact</Link>
-            <Link className="menu-item" to="/resume">Resumé</Link>
+            <a className="menu-item" href={resume} target="_blank">Resumé</a>
           </Menu>
         </MediaQuery>
         <MediaQuery query="(max-width: 750px)">
@@ -49,7 +46,7 @@ export default class Header extends Component {
             <Link className="menu-item" to="/about">About</Link>
             <Link className="menu-item" to="/projects">Projects</Link>
             <Link className="menu-item" to="/contact">Contact</Link>
-            <Link className="menu-item" to="/resume">Resumé</Link>
+            <a className="menu-item" href={resume} target="_blank">Resumé</a>
           </Menu>
         </MediaQuery>
       </header>

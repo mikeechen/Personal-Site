@@ -7,10 +7,6 @@ import twitter from '../assets/1489308240_Twitter_social_media_logo.svg';
 import instagram from '../assets/1489308248_Instagram_social_media_logo.svg';
 
 export default class Footer extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   componentDidMount() {
     const location = window.location.pathname;
     if (location === '/' || location === '/about') {

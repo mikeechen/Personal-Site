@@ -3,22 +3,12 @@ import MediaQuery from 'react-responsive';
 import '../styles/main.css';
 
 export default class Main extends Component {
+  constructor(props) {
+    super(props);
+  }
+
   componentDidMount() {
-    const images = document.getElementsByClassName('footer-logo');
-    const logo = document.querySelector('.logo');
-    const headerNav = document.querySelector('header nav');
-
-    for (let img of images) {
-      img.style.filter = 'invert(100%)';
-    }
-
-    if (headerNav) {
-      headerNav.style.filter = 'invert(0%)';
-    }
-
-    if (logo) {
-      logo.style.filter = 'invert(0%)';
-    }
+    this.props.invertBack();
   }
 
   render() {
@@ -26,7 +16,6 @@ export default class Main extends Component {
       <section className="background">
         <MediaQuery query="(min-width: 1220px)">
           <div>
-            {/* <img className="animated fadeInDown" src="http://fontmeme.com/permalink/170313/52d04448b7de6f8a4b08bc25f989eb87.png" alt="Michael Chen"/> */}
             <h1 className="animated fadeInDown">MICHAEL CHEN</h1>
             <h3 className="animated fadeInUp">Developer. Problem Sovler. Networker.</h3>
           </div>

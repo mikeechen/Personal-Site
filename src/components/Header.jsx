@@ -5,6 +5,19 @@ import { slide as Menu } from 'react-burger-menu';
 import '../styles/header.css';
 
 export default class Header extends Component {
+  constructor(props) {
+    super(props);
+  }
+
+  componentDidMount() {
+    const location = window.location.pathname;
+    if (location === '/' || location === '/about') {
+      this.props.invertBack();
+    } else {
+      this.props.invert();
+    }
+  }
+
   render() {
     return (
       <header>
@@ -16,7 +29,7 @@ export default class Header extends Component {
               <li><Link to="/about">About</Link></li>
               <li><Link to="/projects">Projects</Link></li>
               <li><Link to="/contact">Contact</Link></li>
-              <li><a href="#">Resume</a></li>
+              <li><Link to="/resume">Resumé</Link></li>
             </ul>
           </nav>
         </MediaQuery>
@@ -27,7 +40,7 @@ export default class Header extends Component {
             <Link className="menu-item" to="/about">About</Link>
             <Link className="menu-item" to="/projects">Projects</Link>
             <Link className="menu-item" to="/contact">Contact</Link>
-            <a className="menu-item" href="#">Resume</a>
+            <Link className="menu-item" to="/resume">Resumé</Link>
           </Menu>
         </MediaQuery>
         <MediaQuery query="(max-width: 750px)">
@@ -36,7 +49,7 @@ export default class Header extends Component {
             <Link className="menu-item" to="/about">About</Link>
             <Link className="menu-item" to="/projects">Projects</Link>
             <Link className="menu-item" to="/contact">Contact</Link>
-            <a className="menu-item" href="#">Resume</a>
+            <Link className="menu-item" to="/resume">Resumé</Link>
           </Menu>
         </MediaQuery>
       </header>

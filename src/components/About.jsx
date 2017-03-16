@@ -4,22 +4,12 @@ import '../styles/main.css';
 import '../styles/about.css';
 
 export default class About extends Component {
+  constructor(props) {
+    super(props);
+  }
+
   componentDidMount() {
-    const images = document.getElementsByClassName('footer-logo');
-    const logo = document.querySelector('.logo');
-    const headerNav = document.querySelector('header nav');
-
-    for (let img of images) {
-      img.style.filter = 'invert(100%)';
-    }
-
-    if (headerNav) {
-      headerNav.style.filter = 'invert(0%)';
-    }
-
-    if (logo) {
-      logo.style.filter = 'invert(0%)';
-    }
+    this.props.invertBack();
   }
 
   render() {

@@ -5,22 +5,12 @@ import '../styles/project.css';
 import '../styles/contact.css';
 
 export default class Contact extends Component {
+  constructor(props) {
+    super(props);
+  }
+
   componentDidMount() {
-    const images = document.getElementsByClassName('footer-logo');
-    const logo = document.querySelector('.logo');
-    const headerNav = document.querySelector('.main-header');
-
-    for (let img of images) {
-      img.style.filter = 'invert(40%)';
-    }
-
-    if (headerNav) {
-      headerNav.style.filter = 'invert(100%)';
-    }
-
-    if (logo) {
-      logo.style.filter = 'invert(100%)';
-    }
+    this.props.invert();
   }
 
   render() {

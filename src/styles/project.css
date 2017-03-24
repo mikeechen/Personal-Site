@@ -102,7 +102,7 @@ object {
   margin-top: 0;
 }
 
-.my-butt {
+.my-butt, .my-butt:visited {
   color: white;
   padding: 0 5%;
   margin: 0 3%;

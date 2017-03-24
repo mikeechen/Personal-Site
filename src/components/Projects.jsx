@@ -55,7 +55,7 @@ export default class Projects extends Component {
         <div className="project-content">
           <div className="container">
             <div className="row project-row">
-              <div className="three columns project">
+              <div className="three columns project animated fadeInLeft">
                 <div className="img-container">
                   <img className="background-icon" src={dreamHome} alt="dream-home"/>
                   <a
@@ -86,7 +86,7 @@ export default class Projects extends Component {
                   </div>
                 </div>
               </div>
-              <div className="three columns project">
+              <div className="three columns project animated fadeInLeft">
                 <div className="img-container">
                   <img className="background-icon" src={fat} alt="F.A.T"/>
                   <a
@@ -116,7 +116,7 @@ export default class Projects extends Component {
                   </div>
                 </div>
               </div>
-              <div className="three columns project">
+              <div className="three columns project animated fadeInRight">
                 <div className="img-container">
                   <img className="background-icon" src={snap} alt="snapshop"/>
                   <a
@@ -146,7 +146,7 @@ export default class Projects extends Component {
                   </div>
                 </div>
               </div>
-              <div className="three columns project">
+              <div className="three columns project animated fadeInRight">
                 <div className="img-container">
                   <img className="background-icon" src={data} alt="data-guru"/>
                   <a
@@ -178,7 +178,7 @@ export default class Projects extends Component {
               </div>
             </div>
             <div className="row project-row">
-              <div className="three columns project">
+              <div className="three columns project animated fadeInLeft">
                 <div className="img-container">
                   <img className="background-icon" src={winetwitch} alt="wine-twitch"/>
                   <a

@@ -4,7 +4,8 @@ import home from '../assets/svg/001-home-page.svg';
 import tech from '../assets/svg/002-technology.svg';
 import circle from '../assets/svg/003-circle.svg';
 import food from '../assets/svg/004-dinner.svg';
-import multi from '../assets/svg/005-multimedia.svg'
+import multi from '../assets/svg/005-multimedia.svg';
+import speak from '../assets/svg/speaking.svg';
 import dreamHome from '../assets/screencap/dreamhome.png';
 import fat from '../assets/screencap/foodapptracker.png';
 import snap from '../assets/screencap/snapshop.png';
@@ -178,7 +179,7 @@ export default class Projects extends Component {
               </div>
             </div>
             <div className="row project-row">
-              <div className="three columns project animated fadeInLeft">
+              <div className="three columns offset-by-three columns project animated fadeInLeft">
                 <div className="img-container">
                   <img className="background-icon" src={winetwitch} alt="wine-twitch"/>
                   <a
@@ -205,6 +206,33 @@ export default class Projects extends Component {
                   <div className="row button-row">
                     <a href="http://mikeechen-winetwitch.surge.sh/" target="_blank" className="button my-butt">Live Site</a>
                     <a href="https://github.com/mikeechen/Twitch-and-Wine" target="_blank" className="button my-butt">Github</a>
+                  </div>
+                </div>
+              </div>
+              <div className="three columns project animated fadeInRight">
+                <div className="img-container">
+                  <a
+                    onMouseEnter={this.handleMouseIn}
+                    onMouseLeave={this.handleMouseLeave}
+                    href="https://github.com/mikeechen/Alexa-Apps"
+                    target="_blank"
+                    >
+                      <img className="project-icon" src={speak} alt="wine-twitch"/>
+                  </a>
+                </div>
+                <div className="project-desc-container">
+                  <p className="title">Alexa Skills</p>
+                  <p className="project-desc">A couple Alexa skills I developed
+                    on the side: Quotes, Cat Facts, and Pokédex.</p>
+                  <p className="list-header">Technologies utilized:</p>
+                  <ul className="list project-list">
+                    <li>JavaScript</li>
+                    <li>AWS</li>
+                    <li>Alexa CDN</li>
+                    <li>AJAX</li>
+                  </ul>
+                  <div className="row button-row">
+                    <a href="https://github.com/mikeechen/Alexa-Apps" target="_blank" className="button my-butt">Github</a>
                   </div>
                 </div>
               </div>

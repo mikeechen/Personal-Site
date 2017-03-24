@@ -57,7 +57,60 @@ object {
   transition: opacity 400ms;
 }
 
-.project > p.title {
+.project > div.project-desc-container {
+    width: 80%;
+    margin: 0 auto;
+    height: 70%;
+}
+
+.project > div.project-desc-container > p.title {
+  height: 12%;
   font-weight: bold;
   font-size: 130%;
+  margin: 0;
+}
+
+.project > div.project-desc-container > p.project-desc {
+  height: 17%;
+  font-weight: 400;
+  font-size: 80%;
+  margin: 0;
+}
+
+.project > div.project-desc-container > p.list-header {
+  text-align: left;
+  font-weight: 300;
+  font-size: 80%;
+  width: 80%;
+  margin: 3% auto 2%;
+}
+
+.project > div.project-desc-container > ul.project-list {
+  height: 45%;
+  text-align: left;
+  font-weight: 200;
+  font-size: 80%;
+  width: 65%;
+  margin: 0 auto;
+}
+
+.project > div.project-desc-container > ul.project-list > li {
+  margin: 0 0 3%;
+}
+
+.project > div.project-desc-container > div.button-row {
+  margin-top: 0;
+}
+
+.my-butt {
+  color: white;
+  padding: 0 5%;
+  margin: 0 3%;
+  transition: 500ms;
+}
+
+.my-butt:hover {
+  color: #222;
+  background-color: #fff;
+  transition: 500ms;
 }

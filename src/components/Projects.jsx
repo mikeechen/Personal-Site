@@ -67,7 +67,24 @@ export default class Projects extends Component {
                       <img className="project-icon" src={home} alt="dream-home"/>
                   </a>
                 </div>
-                <p className="title">Dream Home</p>
+                <div className="project-desc-container">
+                  <p className="title">Dream Home</p>
+                  <p className="project-desc">A real-estate site for real-estate
+                    agent Rebecca Yu, who operates in Corvallis, OR.</p>
+                  <p className="list-header">Technologies utilized:</p>
+                  <ul className="list project-list">
+                    <li>ReactJS</li>
+                    <li>MobX</li>
+                    <li>NodeJS</li>
+                    <li>ExpressJS</li>
+                    <li>PostgreSQL</li>
+                    <li>PostGIS</li>
+                  </ul>
+                  <div className="row button-row">
+                    <a href="http://dreamhomesbyrebeccayu.herokuapp.com/" className="button my-butt">Live Site</a>
+                    <a href="https://github.com/mikeechen/DreamHome" className="button my-butt">Github</a>
+                  </div>
+                </div>
               </div>
               <div className="three columns project">
                 <div className="img-container">
@@ -81,7 +98,23 @@ export default class Projects extends Component {
                       <img className="project-icon" src={circle} alt="F.A.T"/>
                   </a>
                 </div>
-                <p className="title">Food Tracker App</p>
+                <div className="project-desc-container">
+                  <p className="title">Food Tracker App</p>
+                  <p className="project-desc">An app to help you track and analyze
+                    your daily food intake.</p>
+                  <p className="list-header">Technologies utilized:</p>
+                  <ul className="list project-list">
+                    <li>ReactJS</li>
+                    <li>NodeJS</li>
+                    <li>ExpressJS</li>
+                    <li>PostgreSQL</li>
+                    <li>Brunch</li>
+                  </ul>
+                  <div className="row button-row">
+                    <a href="https://food-tracker-app.herokuapp.com/" className="button my-butt">Live Site</a>
+                    <a href="https://github.com/smk291/food-tracker" className="button my-butt">Github</a>
+                  </div>
+                </div>
               </div>
               <div className="three columns project">
                 <div className="img-container">
@@ -95,7 +128,23 @@ export default class Projects extends Component {
                       <img className="project-icon" src={tech} alt="snapshop"/>
                   </a>
                 </div>
-                <p className="title">Snap Shop</p>
+                <div className="project-desc-container">
+                  <p className="title">Snap Shop</p>
+                  <p className="project-desc">A mock e-commerce site that specializes
+                    in cameras.</p>
+                  <p className="list-header">Technologies utilized:</p>
+                  <ul className="list project-list">
+                    <li>AngularJS</li>
+                    <li>NodeJS</li>
+                    <li>ExpressJS</li>
+                    <li>PostgreSQL</li>
+                    <li>Brunch</li>
+                  </ul>
+                  <div className="row button-row">
+                    <a href="http://mikeechen-snapshop.herokuapp.com/" className="button my-butt">Live Site</a>
+                    <a href="https://github.com/mikeechen/snap-shop" className="button my-butt">Github</a>
+                  </div>
+                </div>
               </div>
               <div className="three columns project">
                 <div className="img-container">
@@ -109,7 +158,23 @@ export default class Projects extends Component {
                       <img className="project-icon" src={multi} alt="data-guru"/>
                   </a>
                 </div>
-                <p className="title">Data Guru</p>
+                <div className="project-desc-container">
+                  <p className="title">Data Guru</p>
+                  <p className="project-desc">An online tool for developers to
+                  find and store useful open-data through Socrata's API.</p>
+                  <p className="list-header">Technologies utilized:</p>
+                  <ul className="list project-list">
+                    <li>JavaScript</li>
+                    <li>JQuery</li>
+                    <li>NodeJS</li>
+                    <li>ExpressJS</li>
+                    <li>PostgreSQL</li>
+                  </ul>
+                  <div className="row button-row">
+                    <a href="http://data-guru.herokuapp.com/" className="button my-butt">Live Site</a>
+                    <a href="https://github.com/Voxelsdev/Data-Guru" className="button my-butt">Github</a>
+                  </div>
+                </div>
               </div>
             </div>
             <div className="row project-row">
@@ -125,7 +190,23 @@ export default class Projects extends Component {
                       <img className="project-icon" src={food} alt="wine-twitch"/>
                   </a>
                 </div>
-                <p className="title">Twitch and Wine</p>
+                <div className="project-desc-container">
+                  <p className="title">Twitch and Wine</p>
+                  <p className="project-desc">A fun and interactive application
+                  that pairs wine with twitch channels.</p>
+                  <p className="list-header">Technologies utilized:</p>
+                  <ul className="list project-list">
+                    <li>JavaScript</li>
+                    <li>JQuery</li>
+                    <li>AJAX</li>
+                    <li>Twitch API</li>
+                    <li>Wine.com API</li>
+                  </ul>
+                  <div className="row button-row">
+                    <a href="http://mikeechen-winetwitch.surge.sh/" className="button my-butt">Live Site</a>
+                    <a href="https://github.com/mikeechen/Twitch-and-Wine" className="button my-butt">Github</a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

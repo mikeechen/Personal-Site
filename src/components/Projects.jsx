@@ -67,6 +67,7 @@ export default class Projects extends Component {
                       <img className="project-icon" src={home} alt="dream-home"/>
                   </a>
                 </div>
+                <p className="title">Dream Home</p>
               </div>
               <div className="three columns project">
                 <div className="img-container">
@@ -80,6 +81,7 @@ export default class Projects extends Component {
                       <img className="project-icon" src={circle} alt="F.A.T"/>
                   </a>
                 </div>
+                <p className="title">Food Tracker App</p>
               </div>
               <div className="three columns project">
                 <div className="img-container">
@@ -93,6 +95,7 @@ export default class Projects extends Component {
                       <img className="project-icon" src={tech} alt="snapshop"/>
                   </a>
                 </div>
+                <p className="title">Snap Shop</p>
               </div>
               <div className="three columns project">
                 <div className="img-container">
@@ -106,6 +109,7 @@ export default class Projects extends Component {
                       <img className="project-icon" src={multi} alt="data-guru"/>
                   </a>
                 </div>
+                <p className="title">Data Guru</p>
               </div>
             </div>
             <div className="row project-row">
@@ -121,6 +125,7 @@ export default class Projects extends Component {
                       <img className="project-icon" src={food} alt="wine-twitch"/>
                   </a>
                 </div>
+                <p className="title">Twitch and Wine</p>
               </div>
             </div>
           </div>

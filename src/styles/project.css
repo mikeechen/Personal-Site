@@ -48,10 +48,6 @@ object {
   transition: opacity 400ms;
 }
 
-.project > div > a {
-  
-}
-
 .project > div > a > img.project-icon {
   text-align: center;
   height: 100%;
@@ -59,4 +55,9 @@ object {
   position: relative;
   opacity: 1;
   transition: opacity 400ms;
+}
+
+.project > p.title {
+  font-weight: bold;
+  font-size: 130%;
 }

@@ -81,8 +81,8 @@ export default class Projects extends Component {
                     <li>PostGIS</li>
                   </ul>
                   <div className="row button-row">
-                    <a href="http://dreamhomesbyrebeccayu.herokuapp.com/" className="button my-butt">Live Site</a>
-                    <a href="https://github.com/mikeechen/DreamHome" className="button my-butt">Github</a>
+                    <a href="http://dreamhomesbyrebeccayu.herokuapp.com/" target="_blank" className="button my-butt">Live Site</a>
+                    <a href="https://github.com/mikeechen/DreamHome" target="_blank" className="button my-butt">Github</a>
                   </div>
                 </div>
               </div>
@@ -111,8 +111,8 @@ export default class Projects extends Component {
                     <li>Brunch</li>
                   </ul>
                   <div className="row button-row">
-                    <a href="https://food-tracker-app.herokuapp.com/" className="button my-butt">Live Site</a>
-                    <a href="https://github.com/smk291/food-tracker" className="button my-butt">Github</a>
+                    <a href="https://food-tracker-app.herokuapp.com/" target="_blank" className="button my-butt">Live Site</a>
+                    <a href="https://github.com/smk291/food-tracker" target="_blank" className="button my-butt">Github</a>
                   </div>
                 </div>
               </div>
@@ -141,8 +141,8 @@ export default class Projects extends Component {
                     <li>Brunch</li>
                   </ul>
                   <div className="row button-row">
-                    <a href="http://mikeechen-snapshop.herokuapp.com/" className="button my-butt">Live Site</a>
-                    <a href="https://github.com/mikeechen/snap-shop" className="button my-butt">Github</a>
+                    <a href="http://mikeechen-snapshop.herokuapp.com/" target="_blank" className="button my-butt">Live Site</a>
+                    <a href="https://github.com/mikeechen/snap-shop" target="_blank" className="button my-butt">Github</a>
                   </div>
                 </div>
               </div>
@@ -171,8 +171,8 @@ export default class Projects extends Component {
                     <li>PostgreSQL</li>
                   </ul>
                   <div className="row button-row">
-                    <a href="http://data-guru.herokuapp.com/" className="button my-butt">Live Site</a>
-                    <a href="https://github.com/Voxelsdev/Data-Guru" className="button my-butt">Github</a>
+                    <a href="http://data-guru.herokuapp.com/" target="_blank" className="button my-butt">Live Site</a>
+                    <a href="https://github.com/Voxelsdev/Data-Guru" target="_blank" className="button my-butt">Github</a>
                   </div>
                 </div>
               </div>
@@ -203,8 +203,8 @@ export default class Projects extends Component {
                     <li>Wine.com API</li>
                   </ul>
                   <div className="row button-row">
-                    <a href="http://mikeechen-winetwitch.surge.sh/" className="button my-butt">Live Site</a>
-                    <a href="https://github.com/mikeechen/Twitch-and-Wine" className="button my-butt">Github</a>
+                    <a href="http://mikeechen-winetwitch.surge.sh/" target="_blank" className="button my-butt">Live Site</a>
+                    <a href="https://github.com/mikeechen/Twitch-and-Wine" target="_blank" className="button my-butt">Github</a>
                   </div>
                 </div>
               </div>

@@ -11,6 +11,7 @@ import fat from '../assets/screencap/foodapptracker.png';
 import snap from '../assets/screencap/snapshop.png';
 import data from '../assets/screencap/dataguru.png';
 import winetwitch from '../assets/screencap/winetwitch.png';
+import scroll from '../assets/scrollformore.png';
 import '../styles/project.css';
 
 export default class Projects extends Component {
@@ -46,14 +47,19 @@ export default class Projects extends Component {
     back.style.opacity = '0';
   }
 
+  handleScroll() {
+    this.icon.style.opacity = '0';
+  }
+
   componentDidMount() {
     this.props.invert();
   }
 
   render() {
     return(
-      <section className="second-background">
+      <section className="second-background" onScroll={this.handleScroll.bind(this)}>
         <div className="project-content">
+          <img className="scroll-icon" src={scroll} ref={(input) => this.icon = input} alt="scroll"/>
           <div className="container">
             <div className="row project-row">
               <div className="three columns project animated fadeInLeft">

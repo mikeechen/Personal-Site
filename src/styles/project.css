@@ -14,8 +14,17 @@
   background-color: inherit;
 }
 
+.project-content > img.scroll-icon {
+  width: 15%;
+  position: absolute;
+  left: 2%;
+  top: 30%;
+  opacity: 1;
+  transition: 500ms;
+}
+
 .project-row {
-  height: 63vh;
+  height: 65vh;
   margin-bottom: 1.5rem;
 }
 

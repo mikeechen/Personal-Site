@@ -17,7 +17,7 @@
 .project-content > img.scroll-icon {
   width: 15%;
   position: absolute;
-  left: 2%;
+  right: 2%;
   top: 30%;
   opacity: 1;
   transition: 500ms;

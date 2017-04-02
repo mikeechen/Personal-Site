@@ -19,14 +19,14 @@ export default class About extends Component {
               I’m a Web Developer based out of Seattle. Growing up, I was always
               interested in technology, and how it could improve our lives.
               I took a C/C++ course over a summer during high school, and instantly
-              fell in love with how I can make a simple application from just writing code. 
+              fell in love with how I can make a simple application from just writing code.
               Coding has been a passion of mine for a long time, and I am ready
               to begin my career as a developer.
             </p>
             <MediaQuery query="(min-width: 620px)">
               <div className="row animated fadeInUp">
                 <div className="one-half column">
-                  <p className="text">Technologies I am skilled in:</p>
+                  <p className="text">Technologies I love:</p>
                   <ul className="list">
                     <li>JavaScript</li>
                     <li>ReactJS</li>
@@ -37,7 +37,7 @@ export default class About extends Component {
                   </ul>
                 </div>
                 <div className="one-half column">
-                  <p className="text">Technologies I am currently/interested in learning:</p>
+                  <p className="text">More Technologies I love:</p>
                   <ul className="list">
                     <li>Java Spring</li>
                     <li>Ruby on Rails</li>

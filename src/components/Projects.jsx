@@ -78,12 +78,11 @@ export default class Projects extends Component {
                   <p className="title">Dream Home</p>
                   <p className="project-desc">A real-estate site for real-estate
                     agent Rebecca Yu, who operates in Corvallis, OR.</p>
-                  <p className="list-header">Technologies utilized:</p>
+                  {/* <p className="list-header">Technologies utilized:</p> */}
                   <ul className="list project-list">
                     <li>ReactJS</li>
                     <li>MobX</li>
                     <li>NodeJS</li>
-                    <li>ExpressJS</li>
                     <li>PostgreSQL</li>
                     <li>PostGIS</li>
                   </ul>
@@ -109,11 +108,10 @@ export default class Projects extends Component {
                   <p className="title">Food Tracker App</p>
                   <p className="project-desc">An app to help you track and analyze
                     your daily food intake.</p>
-                  <p className="list-header">Technologies utilized:</p>
+                  {/* <p className="list-header">Technologies utilized:</p> */}
                   <ul className="list project-list">
                     <li>ReactJS</li>
                     <li>NodeJS</li>
-                    <li>ExpressJS</li>
                     <li>PostgreSQL</li>
                     <li>Brunch</li>
                   </ul>
@@ -139,11 +137,10 @@ export default class Projects extends Component {
                   <p className="title">Snap Shop</p>
                   <p className="project-desc">A mock e-commerce site that specializes
                     in cameras.</p>
-                  <p className="list-header">Technologies utilized:</p>
+                  {/* <p className="list-header">Technologies utilized:</p> */}
                   <ul className="list project-list">
                     <li>AngularJS</li>
                     <li>NodeJS</li>
-                    <li>ExpressJS</li>
                     <li>PostgreSQL</li>
                     <li>Brunch</li>
                   </ul>
@@ -169,9 +166,8 @@ export default class Projects extends Component {
                   <p className="title">Data Guru</p>
                   <p className="project-desc">An online tool for developers to
                   find and store useful open-data through Socrata's API.</p>
-                  <p className="list-header">Technologies utilized:</p>
+                  {/* <p className="list-header">Technologies utilized:</p> */}
                   <ul className="list project-list">
-                    <li>JavaScript</li>
                     <li>JQuery</li>
                     <li>NodeJS</li>
                     <li>ExpressJS</li>
@@ -201,9 +197,8 @@ export default class Projects extends Component {
                   <p className="title">Twitch and Wine</p>
                   <p className="project-desc">A fun and interactive application
                   that pairs wine with twitch channels.</p>
-                  <p className="list-header">Technologies utilized:</p>
+                  {/* <p className="list-header">Technologies utilized:</p> */}
                   <ul className="list project-list">
-                    <li>JavaScript</li>
                     <li>JQuery</li>
                     <li>AJAX</li>
                     <li>Twitch API</li>
@@ -230,7 +225,7 @@ export default class Projects extends Component {
                   <p className="title">Alexa Skills</p>
                   <p className="project-desc">A couple Alexa skills I developed
                     on the side: Quotes, Cat Facts, and Pokédex.</p>
-                  <p className="list-header">Technologies utilized:</p>
+                  {/* <p className="list-header">Technologies utilized:</p> */}
                   <ul className="list project-list">
                     <li>JavaScript</li>
                     <li>AWS</li>

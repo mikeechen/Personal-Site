@@ -90,12 +90,12 @@
 }
 
 .project > div.project-desc-container > ul.project-list {
-  height: 45%;
+  height: 40%;
   text-align: left;
   font-weight: 200;
   font-size: 80%;
   width: 65%;
-  margin: 0 auto;
+  margin: 3% auto;
 }
 
 .project > div.project-desc-container > ul.project-list > li {

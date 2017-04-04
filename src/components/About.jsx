@@ -16,12 +16,11 @@ export default class About extends Component {
           <div className="container">
             <h3 className="text animated fadeInDown">Hello there! I'm Michael Chen.</h3>
             <p className="text animated fadeInDown">
-              I’m a Web Developer based out of Seattle. Growing up, I was always
-              interested in technology, and how it could improve our lives.
-              I took a C/C++ course over a summer during high school, and instantly
-              fell in love with how I can make a simple application from just writing code.
-              Coding has been a passion of mine for a long time, and I am ready
-              to begin my career as a developer.
+              I’m a Web Developer based out of Seattle. Being an engineer has
+              trained me to become a keen observer, and helped me developed
+              different skills in coding and software development. I recently took
+              a 6-month intensive course to hone in my skill as a developer, and I
+              am excited to learn even more in this industry!
             </p>
             <MediaQuery query="(min-width: 620px)">
               <div className="row animated fadeInUp">

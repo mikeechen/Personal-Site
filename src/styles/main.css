@@ -29,6 +29,10 @@ section > div > h3 {
   background-size: cover;
 }
 
+#preload {
+  background: url('../assets/IMG_2977.jpg') no-repeat -9999px -9999px;
+}
+
 @media screen and (max-device-width: 750px) {
   .background {
     background-attachment: scroll;

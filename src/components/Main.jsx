@@ -11,6 +11,7 @@ export default class Main extends Component {
     return (
       <section className="background">
         <a id="hidden" href="https://mikeechen-jquerycalc.surge.sh">:)</a>
+        <div id="preload"></div>
         <MediaQuery query="(min-width: 1220px)">
           <div>
             <h1 className="animated fadeInDown">MICHAEL CHEN</h1>

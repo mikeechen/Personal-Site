@@ -18,9 +18,9 @@ export default class Header extends Component {
   render() {
     return (
       <header>
-        <MediaQuery query="(min-width: 1220px)">
+        <MediaQuery query="(min-width: 1300px)">
           <Link to="/">
-            <img className="logo" src="http://fontmeme.com/permalink/170313/1c08a7dce2a7ca6fbb17e1bf7fc0aaf1.png" alt="MC"/>
+            <img className="logo" src="http://fontmeme.com/permalink/170509/22784529580e2d3e4ae3b1a0bb55e8ac.png" alt="MC"/>
           </Link>
           <nav className="main-header">
             <ul>
@@ -32,9 +32,9 @@ export default class Header extends Component {
             </ul>
           </nav>
         </MediaQuery>
-        <MediaQuery query="(max-width: 1219px) and (min-width: 751px)">
+        <MediaQuery query="(max-width: 1320px) and (min-width: 751px)">
           <Link to="/">
-            <img className="logo" src="http://fontmeme.com/permalink/170313/1c08a7dce2a7ca6fbb17e1bf7fc0aaf1.png" alt="MC"/>
+            <img className="logo" src="http://fontmeme.com/permalink/170509/22784529580e2d3e4ae3b1a0bb55e8ac.png" alt="MC"/>
           </Link>
           <Menu right>
             <Link className="menu-item" to="/">Home</Link>
